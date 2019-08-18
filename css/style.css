@@ -28,3 +28,8 @@ h2{
 .title{
 	float:right;
 }
+.game{
+	margin:auto;
+	width: 50%;
+	margin-top:75px; 
+}
