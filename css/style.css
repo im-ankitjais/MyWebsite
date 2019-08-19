@@ -1,6 +1,9 @@
 .navbar{
 	float:right;
 }
+a{
+	text-decoration: none;
+}
 .box{
 	margin:auto;
 }
@@ -19,17 +22,26 @@ h1{
 	padding-left:200px;
     max-width: 600px;
 }
-h2{
+#about{
 	font-size:1.2em;
 	color:#fe33a3;
 	padding-left:500px;
 	margin-top:-0px;
 }
-.title{
-	float:right;
+
+
+
+.content{
+	padding-left:400px;
 }
-.game{
-	margin:auto;
-	width: 50%;
-	margin-top:75px; 
+.content .title{
+	margin-top:100px;
+}
+.content .head{
+	color:#005dff;
+	font-size:1.2em;
+	padding-top:10px;
+}
+.content .data{
+	margin-top:-5px;
 }
