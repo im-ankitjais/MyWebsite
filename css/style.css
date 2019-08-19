@@ -3,16 +3,21 @@
 }
 a{
 	text-decoration: none;
+}
+html .navbar a{
 	color:#000;
 }
-a:hover{
+a:visited{
+	color:#005dff;
+}
+html a:hover{
 	color:#fe33a3;
 }
 .profile{
 	border-radius:3px;
 }
 .profile:link,.profile:visited{
-	background-color: #000;
+  background-color: #000;
   color: white;
   padding: 5px 5px;
   text-align: center; 
