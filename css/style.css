@@ -3,6 +3,24 @@
 }
 a{
 	text-decoration: none;
+	color:#000;
+}
+a:hover{
+	color:#fe33a3;
+}
+.profile{
+	border-radius:3px;
+}
+.profile:link,.profile:visited{
+	background-color: #000;
+  color: white;
+  padding: 5px 5px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+}
+.profile:hover, .profile:active {
+  background-color: #fe33a3;
 }
 .box{
 	margin:auto;
@@ -33,6 +51,7 @@ h1{
 
 .content{
 	padding-left:400px;
+	margin-right:400px;
 }
 .content .title{
 	margin-top:100px;
