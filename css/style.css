@@ -38,7 +38,7 @@ html a:hover{
 	margin-right:400px;
 	padding-top:150px;
 }
-h1{
+.name{
 	margin:auto;
 	font-size:2.7em;
 	padding-top:200px;
@@ -69,3 +69,14 @@ h1{
 .content .data{
 	margin-top:-5px;
 }
+
+
+
+@media screen and (max-width: 480px) {
+	.box{display:none;}
+	.mobile-message:before{content:'Mobile Version Is Under Construction 🚧';}
+	.mobile-message{
+		padding-top:100px;
+		text-align: center;
+	}
+ }
