@@ -72,7 +72,7 @@ html a:hover{
 
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
 	.box{display:none;}
 	.mobile-message:before{content:'Mobile Version Is Under Construction 🚧';}
 	.mobile-message{
