@@ -1,5 +1,6 @@
 .navbar{
-	float:right;
+	display: inline-block;
+	width: 100%;
 }
 a{
 	text-decoration: none;
@@ -19,64 +20,41 @@ html a:hover{
 .profile:link,.profile:visited{
   background-color: #000;
   color: white;
-  padding: 5px 5px;
-  text-align: center; 
+  padding: 5px 5px; 
   text-decoration: none;
-  display: inline-block;
-}
+ }
 .profile:hover, .profile:active {
   background-color: #fe33a3;
 }
+
 .box{
-	margin:auto;
-}
-#image{
-	float: right;
-	width: 160px;
-	height: 170px;
-	border-radius: 50%;
-	margin-right:400px;
-	padding-top:150px;
-}
+	display:inline-block;
+	width: 100%;
+ 	max-width: 640px;
+  	margin: 100px 0px 200px 25%;
+   	padding: 0 20px;
+ }
 .name{
-	margin:auto;
 	font-size:2.7em;
-	padding-top:200px;
-	padding-left:200px;
-    max-width: 600px;
+	margin-bottom:-10px;
 }
 #about{
 	font-size:1.2em;
 	color:#fe33a3;
-	padding-left:500px;
-	margin-top:-0px;
 }
 
 
 
-.content{
-	padding-left:400px;
-	margin-right:400px;
-}
 .content .title{
-	margin-top:100px;
+	margin-top:75px;
 }
 .content .head{
 	color:#005dff;
 	font-size:1.2em;
-	padding-top:10px;
 }
 .content .data{
 	margin-top:-5px;
 }
-
-
-
-@media screen and (max-width: 600px) {
-	.box{display:none;}
-	.mobile-message:before{content:'Mobile Version Is Under Construction 🚧';}
-	.mobile-message{
-		padding-top:100px;
-		text-align: center;
-	}
- }
+.text{
+	margin-bottom:-190px;
+}
